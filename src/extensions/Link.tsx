@@ -47,7 +47,7 @@ function useFloatingLinkState() {
 
       chain.focus({ to, from }).run();
     },
-    [chain, to]
+    [chain, from, to]
   );
 
   useEffect(() => {
